@@ -5,6 +5,8 @@
     $styleCss = "public/css/style.css";
     $_date = date('Y-d-m');
     $_years = new DateTime();
+    $navigator = $_SERVER["PHP-SELF"];
+    $
 
     # classe ref
     class User{

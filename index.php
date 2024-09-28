@@ -61,5 +61,11 @@
         include_once __DIR__ . '/template/footer.inc.php'
     ?>
 
+    <!-- <pre>
+        <?php 
+           # print_r($_SERVER)
+        ?>
+    </pre> -->
+
 </body>
 </html>
