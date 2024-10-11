@@ -18,33 +18,7 @@
     
    
                     class Utilisateur{
-                        public function actorsInfo(){
-                            $actors = [
-                                array(
-                                    "prenom"=>"Joaquin",
-                                    "nom"=>"Phoenix",
-                                    "role"=>"dans le rôle d'Arthur Fleck (Joker)"
-                                ),
-                                array(
-                                    "prenom"=>"Robert",
-                                    "nom"=>"De Niro",
-                                    "role"=>"dans le rôle de Murray Franklin"
-                                ),
-                                array(
-                                    "prenom"=>"Zazie",
-                                    "nom"=>"Beetz",
-                                    "role"=>"dans le rôle de Sophie Dumond"
-                                ),
-                                array(
-                                    "prenom"=>"Frances",
-                                    "nom"=>"Conroy",
-                                    "role"=>"dans le rôle de Penny Fleck"
-                                ),
-                                
-                            ];
-                        
-                        return $actors;
-                    }
+                       
                         public function storyline(){
                             $story = ["title"=>"Histoire du film", 
                             "storyline" => "En 1981, à Gotham City, Arthur Fleck, un comédien raté, sombre dans la folie
@@ -56,7 +30,7 @@
                         }
                 }
                 $instance_utilisateur = new Utilisateur();
-                $actors = $instance_utilisateur->actorsInfo();
+                //$actors = $instance_utilisateur->actorsInfo();
 
 
                 

@@ -31,16 +31,12 @@
         <!-- Section Cast -->
         <section class="cast">
             <h2>Cast Principal</h2>
-            <?php foreach($actors as $role):?>
+           
             <ul>
-                
-                <li>
-                    <strong><?= $role['prenom']." ".$role['nom'] ?>
-                    </strong> <?= $role['role'] ?>
-                </li>
-             
-            </ul>
-            <?php endforeach;?>
+                <?php
+                include_once __DIR__ . '/model/model.php'
+                ?>
+           </ul>
         </section>
 
         <!-- Section Date de Sortie -->
@@ -64,11 +60,11 @@
         include_once __DIR__ . '/template/footer.inc.php'
     ?>
 
-    <pre>
+   <!--  <pre>
         <?php 
-           print_r($_SERVER)
+           //print_r($_SERVER)
         ?>
-    </pre>
+    </pre> -->
 
 </body>
 </html>
